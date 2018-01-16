@@ -1,5 +1,5 @@
 //: polymorphism/music/Wind.java
-package cn.leon.music;
+package cn.leon.polymorphism.music;
 
 // Wind objects are instruments
 // because they have the same interface:

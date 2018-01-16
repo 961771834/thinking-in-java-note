@@ -1,9 +1,9 @@
 //: polymorphism/music3/Music3.java
 // An extensible program.
-package cn.leon.music3;
+package cn.leon.polymorphism.music3;
 
 
-import cn.leon.music.Note;
+import cn.leon.polymorphism.music.Note;
 
 class Instrument {
   void play(Note n) { System.out.println("Instrument.play() " + n); }

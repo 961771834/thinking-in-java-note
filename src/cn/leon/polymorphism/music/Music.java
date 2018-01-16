@@ -1,6 +1,6 @@
 //: polymorphism/music/Music.java
 // Inheritance & upcasting.
-package cn.leon.music;
+package cn.leon.polymorphism.music;
 
 public class Music {
   public static void tune(Instrument i) {

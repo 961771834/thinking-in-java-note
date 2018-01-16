@@ -1,6 +1,6 @@
 //: polymorphism/music/Music2.java
 // Overloading instead of upcasting.
-package cn.leon.music;
+package cn.leon.polymorphism.music;
 
 class Stringed extends Instrument {
   public void play(Note n) {

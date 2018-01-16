@@ -1,5 +1,5 @@
 //: polymorphism/shape/Circle.java
-package cn.leon.polymorphism;
+package cn.leon.polymorphism.shape;
 
 public class Circle extends Shape {
   public void draw() { System.out.println("Circle.draw()"); }

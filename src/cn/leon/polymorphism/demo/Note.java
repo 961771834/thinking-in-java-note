@@ -1,4 +1,4 @@
-package cn.leon.demo;
+package cn.leon.polymorphism.demo;
 
 public enum Note {
 

@@ -1,6 +1,6 @@
 //: polymorphism/shape/RandomShapeGenerator.java
 // A "factory" that randomly creates shapes.
-package cn.leon.polymorphism;
+package cn.leon.polymorphism.shape;
 
 import java.util.Random;
 

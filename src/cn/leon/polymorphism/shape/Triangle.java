@@ -1,5 +1,5 @@
 //: polymorphism/shape/Triangle.java
-package cn.leon.polymorphism;
+package cn.leon.polymorphism.shape;
 
 
 public class Triangle extends Shape {

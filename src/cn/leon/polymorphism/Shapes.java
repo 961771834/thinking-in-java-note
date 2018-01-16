@@ -1,8 +1,8 @@
-package cn.leon;//: polymorphism/Shapes.java
+package cn.leon.polymorphism;//: polymorphism/Shapes.java
 // Polymorphism in Java.
 
-import cn.leon.polymorphism.RandomShapeGenerator;
-import cn.leon.polymorphism.Shape;
+import cn.leon.polymorphism.shape.RandomShapeGenerator;
+import cn.leon.polymorphism.shape.Shape;
 
 public class Shapes {
   private static RandomShapeGenerator gen =

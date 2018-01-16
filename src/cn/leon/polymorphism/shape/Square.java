@@ -1,5 +1,5 @@
 //: polymorphism/shape/Square.java
-package cn.leon.polymorphism;
+package cn.leon.polymorphism.shape;
 
 public class Square extends Shape {
   public void draw() { System.out.println("Square.draw()"); }

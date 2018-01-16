@@ -1,4 +1,4 @@
-package cn.leon.demo;
+package cn.leon.polymorphism.demo;
 
 public class Cycle {
     public void run(Note c){

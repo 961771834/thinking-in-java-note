@@ -1,5 +1,5 @@
 //: polymorphism/shape/Shape.java
-package cn.leon.polymorphism;
+package cn.leon.polymorphism.shape;
 
 public class Shape {
   public void draw() {}

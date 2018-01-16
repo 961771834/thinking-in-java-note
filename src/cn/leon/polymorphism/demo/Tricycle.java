@@ -1,6 +1,6 @@
-package cn.leon.demo;
+package cn.leon.polymorphism.demo;
 
-public class Bicycle extends Cycle {
+public class Tricycle extends Cycle  {
     @Override
     public void run(Note c) {
         System.out.println(wheels());
@@ -8,8 +8,6 @@ public class Bicycle extends Cycle {
 
     @Override
     public Integer wheels() {
-        return 2;
+        return 3;
     }
-
-
 }
