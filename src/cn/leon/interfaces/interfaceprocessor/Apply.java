@@ -1,4 +1,4 @@
-//: interfaces/interfaceprocessor/Apply.java
+
 package cn.leon.interfaces.interfaceprocessor;
 
 public class Apply {
