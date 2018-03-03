@@ -32,14 +32,33 @@ public class Sequence {
     public Selector selector() {
         return new SequenceSelector();
     }
+
+    private class ReverseSelector implements Selector{
+        private int i = items.length;
+        /* 内部类可以访问外部类的字段和方法 items */
+        public boolean end() { return i == 0; }
+        public Object current() {
+            int newi = i-1;
+            return items[newi]; }
+        public void next() { if(i >= 0) i--; }
+    }
+
+    public  Selector reverseSelector(){
+        return new ReverseSelector();
+    }
+
     public static void main(String[] args) {
         Sequence sequence = new Sequence(10);
         for(int i = 0; i < 10; i++)
             sequence.add(Integer.toString(i));
-        Selector selector = sequence.selector();
-        while(!selector.end()) {
-            System.out.print(selector.current() + " ");
-            selector.next();
+//        Selector selector = sequence.selector();
+        Selector reverseSelector = sequence.reverseSelector();
+        while(!reverseSelector.end()) {
+//            System.out.print(selector.current() + " ");
+//            selector.next();
+
+            System.out.print(reverseSelector.current() + " ");
+            reverseSelector.next();
         }
     }
 } /* Output:
