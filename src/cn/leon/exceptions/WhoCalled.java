@@ -4,7 +4,6 @@ package cn.leon.exceptions;
 // Programmatic access to stack trace information.
 
 
-
 public class WhoCalled {
     static void f() {
         // Generate an exception to fill in the stack trace
